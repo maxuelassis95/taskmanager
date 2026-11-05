@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "7E9+5/+TpjA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\adm\\Desktop\\Projetos\\TaskManager\\src\\TaskManager.Api\\TaskManager.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\adm\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.12\\microsoft.aspnetcore.openapi.10.0.12.nupkg.sha512",
+    "C:\\Users\\adm\\.nuget\\packages\\microsoft.openapi\\2.12.0\\microsoft.openapi.2.12.0.nupkg.sha512"
+  ],
+  "logs": []
+}
