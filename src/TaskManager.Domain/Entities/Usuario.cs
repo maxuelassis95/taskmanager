@@ -7,15 +7,15 @@ namespace TaskManager.Domain.Entities
     {
         public string Nome { get; set; }
         public string Email { get; set; }
-        public string Password { get; private set; }
-        public Usuario(Guid id, bool active, DateTime dataCriacao, string nome, string email, string password) : base (id, active, dataCriacao)
+        public string Senha { get; private set; }
+        public Usuario(Guid id, bool ativo, DateTime dataCriacao, string nome, string email, string senha) : base (id, ativo, dataCriacao)
         {
             if(email.IsWhiteSpace())
             {
                 throw new EmailOuSenhaInvalidoException("Email inválidos");
             }
 
-            if(password is null)
+            if(senha is null)
             {
                 throw new EmailOuSenhaInvalidoException("Senha inválida");
             }
@@ -25,9 +25,9 @@ namespace TaskManager.Domain.Entities
                 throw new ArgumentException("Nome incorreto");
             }
 
-            var hashPassword = BCrypt.Net.BCrypt.HashPassword(password);
+            var hashSenha = BCrypt.Net.BCrypt.HashPassword(senha);
 
-            Password = hashPassword;
+            Senha = hashSenha;
         }
     }
 }
