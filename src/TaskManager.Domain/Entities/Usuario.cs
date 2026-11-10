@@ -3,12 +3,12 @@ using BCrypt.Net;
 
 namespace TaskManager.Domain.Entities
 {
-    public class User : EntidadeBase
+    public class Usuario : EntidadeBase
     {
         public string Nome { get; set; }
         public string Email { get; set; }
         public string Password { get; private set; }
-        public User(Guid id, bool active, DateTime dataCriacao, string nome, string email, string password) : base (id, active, dataCriacao)
+        public Usuario(Guid id, bool active, DateTime dataCriacao, string nome, string email, string password) : base (id, active, dataCriacao)
         {
             if(email.IsWhiteSpace())
             {
