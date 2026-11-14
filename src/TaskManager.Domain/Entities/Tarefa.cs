@@ -5,6 +5,7 @@ namespace TaskManager.Domain.Entities
     public class Tarefa : EntidadeBase
     {
 
+        public Guid UsuarioId { get; set; }
         public string Titulo { get; set; }
         public string Descricao { get; set; }
         public StatusTarefa StatusTarefa{ get; set; }
