@@ -1,0 +1,18 @@
+# Pastas de sistema e da IDE (Visual Studio e VS Code)
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Pastas de compilação do .NET
+bin/
+obj/
+
+# Pastas de compilação do .NET após mudar estrutua -- .gitignore enviado a raiz do repositório
+src/bin/
+src/obj/
+
+src/.env
+
+# não compilar o docs por enquanto
+.docs/
