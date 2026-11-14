@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O0Zxbr+akf8=",
+  "dgSpecHash": "3mKYCMV15uU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\Exercicios - API\\TaskManager\\src\\TaskManager.Application\\TaskManager.Application.csproj",
+  "projectFilePath": "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\api-exercises\\TaskManager\\src\\TaskManager.Application\\TaskManager.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\adm\\.nuget\\packages\\bcrypt.net-next\\4.2.0\\bcrypt.net-next.4.2.0.nupkg.sha512"
   ],

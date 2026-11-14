@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\Exercicios - API\\TaskManager\\src\\TaskManager.Api\\TaskManager.Api.csproj": {}
+    "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\api-exercises\\TaskManager\\src\\TaskManager.Api\\TaskManager.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\Exercicios - API\\TaskManager\\src\\TaskManager.Api\\TaskManager.Api.csproj": {
+    "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\api-exercises\\TaskManager\\src\\TaskManager.Api\\TaskManager.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\Exercicios - API\\TaskManager\\src\\TaskManager.Api\\TaskManager.Api.csproj",
+        "projectUniqueName": "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\api-exercises\\TaskManager\\src\\TaskManager.Api\\TaskManager.Api.csproj",
         "projectName": "TaskManager.Api",
-        "projectPath": "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\Exercicios - API\\TaskManager\\src\\TaskManager.Api\\TaskManager.Api.csproj",
+        "projectPath": "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\api-exercises\\TaskManager\\src\\TaskManager.Api\\TaskManager.Api.csproj",
         "packagesPath": "C:\\Users\\adm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\Exercicios - API\\TaskManager\\src\\TaskManager.Api\\obj\\",
+        "outputPath": "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\api-exercises\\TaskManager\\src\\TaskManager.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,11 +33,11 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\Exercicios - API\\TaskManager\\src\\TaskManager.Application\\TaskManager.Application.csproj": {
-                "projectPath": "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\Exercicios - API\\TaskManager\\src\\TaskManager.Application\\TaskManager.Application.csproj"
+              "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\api-exercises\\TaskManager\\src\\TaskManager.Application\\TaskManager.Application.csproj": {
+                "projectPath": "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\api-exercises\\TaskManager\\src\\TaskManager.Application\\TaskManager.Application.csproj"
               },
-              "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\Exercicios - API\\TaskManager\\src\\TaskManager.Infraestructure\\TaskManager.Infraestructure.csproj": {
-                "projectPath": "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\Exercicios - API\\TaskManager\\src\\TaskManager.Infraestructure\\TaskManager.Infraestructure.csproj"
+              "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\api-exercises\\TaskManager\\src\\TaskManager.Infraestructure\\TaskManager.Infraestructure.csproj": {
+                "projectPath": "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\api-exercises\\TaskManager\\src\\TaskManager.Infraestructure\\TaskManager.Infraestructure.csproj"
               }
             }
           }
@@ -62,6 +62,12 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[10.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.0.14, )"
             }
           },
           "imports": [
@@ -501,14 +507,14 @@
         }
       }
     },
-    "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\Exercicios - API\\TaskManager\\src\\TaskManager.Application\\TaskManager.Application.csproj": {
+    "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\api-exercises\\TaskManager\\src\\TaskManager.Application\\TaskManager.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\Exercicios - API\\TaskManager\\src\\TaskManager.Application\\TaskManager.Application.csproj",
+        "projectUniqueName": "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\api-exercises\\TaskManager\\src\\TaskManager.Application\\TaskManager.Application.csproj",
         "projectName": "TaskManager.Application",
-        "projectPath": "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\Exercicios - API\\TaskManager\\src\\TaskManager.Application\\TaskManager.Application.csproj",
+        "projectPath": "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\api-exercises\\TaskManager\\src\\TaskManager.Application\\TaskManager.Application.csproj",
         "packagesPath": "C:\\Users\\adm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\Exercicios - API\\TaskManager\\src\\TaskManager.Application\\obj\\",
+        "outputPath": "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\api-exercises\\TaskManager\\src\\TaskManager.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -530,8 +536,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\Exercicios - API\\TaskManager\\src\\TaskManager.Domain\\TaskManager.Domain.csproj": {
-                "projectPath": "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\Exercicios - API\\TaskManager\\src\\TaskManager.Domain\\TaskManager.Domain.csproj"
+              "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\api-exercises\\TaskManager\\src\\TaskManager.Domain\\TaskManager.Domain.csproj": {
+                "projectPath": "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\api-exercises\\TaskManager\\src\\TaskManager.Domain\\TaskManager.Domain.csproj"
               }
             }
           }
@@ -846,14 +852,14 @@
         }
       }
     },
-    "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\Exercicios - API\\TaskManager\\src\\TaskManager.Domain\\TaskManager.Domain.csproj": {
+    "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\api-exercises\\TaskManager\\src\\TaskManager.Domain\\TaskManager.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\Exercicios - API\\TaskManager\\src\\TaskManager.Domain\\TaskManager.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\api-exercises\\TaskManager\\src\\TaskManager.Domain\\TaskManager.Domain.csproj",
         "projectName": "TaskManager.Domain",
-        "projectPath": "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\Exercicios - API\\TaskManager\\src\\TaskManager.Domain\\TaskManager.Domain.csproj",
+        "projectPath": "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\api-exercises\\TaskManager\\src\\TaskManager.Domain\\TaskManager.Domain.csproj",
         "packagesPath": "C:\\Users\\adm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\Exercicios - API\\TaskManager\\src\\TaskManager.Domain\\obj\\",
+        "outputPath": "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\api-exercises\\TaskManager\\src\\TaskManager.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1193,14 +1199,14 @@
         }
       }
     },
-    "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\Exercicios - API\\TaskManager\\src\\TaskManager.Infraestructure\\TaskManager.Infraestructure.csproj": {
+    "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\api-exercises\\TaskManager\\src\\TaskManager.Infraestructure\\TaskManager.Infraestructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\Exercicios - API\\TaskManager\\src\\TaskManager.Infraestructure\\TaskManager.Infraestructure.csproj",
+        "projectUniqueName": "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\api-exercises\\TaskManager\\src\\TaskManager.Infraestructure\\TaskManager.Infraestructure.csproj",
         "projectName": "TaskManager.Infraestructure",
-        "projectPath": "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\Exercicios - API\\TaskManager\\src\\TaskManager.Infraestructure\\TaskManager.Infraestructure.csproj",
+        "projectPath": "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\api-exercises\\TaskManager\\src\\TaskManager.Infraestructure\\TaskManager.Infraestructure.csproj",
         "packagesPath": "C:\\Users\\adm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\Exercicios - API\\TaskManager\\src\\TaskManager.Infraestructure\\obj\\",
+        "outputPath": "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\api-exercises\\TaskManager\\src\\TaskManager.Infraestructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1222,11 +1228,11 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\Exercicios - API\\TaskManager\\src\\TaskManager.Application\\TaskManager.Application.csproj": {
-                "projectPath": "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\Exercicios - API\\TaskManager\\src\\TaskManager.Application\\TaskManager.Application.csproj"
+              "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\api-exercises\\TaskManager\\src\\TaskManager.Application\\TaskManager.Application.csproj": {
+                "projectPath": "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\api-exercises\\TaskManager\\src\\TaskManager.Application\\TaskManager.Application.csproj"
               },
-              "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\Exercicios - API\\TaskManager\\src\\TaskManager.Domain\\TaskManager.Domain.csproj": {
-                "projectPath": "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\Exercicios - API\\TaskManager\\src\\TaskManager.Domain\\TaskManager.Domain.csproj"
+              "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\api-exercises\\TaskManager\\src\\TaskManager.Domain\\TaskManager.Domain.csproj": {
+                "projectPath": "C:\\Users\\adm\\Desktop\\Estudos\\BACKEND\\.NET C#\\api-exercises\\TaskManager\\src\\TaskManager.Domain\\TaskManager.Domain.csproj"
               }
             }
           }
@@ -1247,6 +1253,12 @@
         "net10.0": {
           "framework": "net10.0",
           "targetAlias": "net10.0",
+          "dependencies": {
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
