@@ -1,5 +1,5 @@
 ﻿using TaskManager.Domain.Exceptions;
-using BCrypt.Net;
+using BC = BCrypt.Net;
 
 namespace TaskManager.Domain.Entities
 {
@@ -9,9 +9,10 @@ namespace TaskManager.Domain.Entities
         public string Email { get; set; }
         public string Senha { get; private set; }
 
-        // Propriedade de navageção
-        public Tarefa Tarefas { get; set; }
-        public Usuario(Guid id, bool ativo, DateTime dataCriacao, string nome, string email, string senha) : base (id, ativo, dataCriacao)
+        // Propriedade de navageção precisa ser tipo ICollection e ser inicializada
+        public ICollection<Tarefa> Tarefas { get; set; } = new List<Tarefa>();
+        public Usuario(Guid id, bool ativo, DateTime dataCriacao, string nome, 
+            string email, string senha) : base (id, ativo, dataCriacao)
         {
             if(email.IsWhiteSpace())
             {
@@ -28,7 +29,7 @@ namespace TaskManager.Domain.Entities
                 throw new ArgumentException("Nome incorreto");
             }
 
-            var hashSenha = BCrypt.Net.BCrypt.HashPassword(senha);
+            var hashSenha = BC.BCrypt.HashPassword(senha);
 
             Senha = hashSenha;
         }
